@@ -1,0 +1,23 @@
+type: choice
+is_multiple_choice: true
+options:
+- text: new BigDecimal("1000000000000.99999999999999999999")
+- text: new Float(10.00).toBigDecimal()
+- text: BigDecimal.TEN
+- text: '"12754653789064.563874596507".toBigDecimal()'
+files:
+- name: src/Task.java
+  visible: true
+  text: |
+    // You can experiment here, it won’t be checked
+
+    public class Task {
+      public static void main(String[] args) {
+        // put your code here
+      }
+    }
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/13512#comment
+status: Solved
+record: -1
+local_check: false
